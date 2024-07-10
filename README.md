@@ -31,5 +31,8 @@ firebase init hosting
 ```
 
 
+## Errors encountered
+
+The build failed for the `npm ci` command for firebase hosting as that expects a package.lock.json file. I had to change the command to `npm install` to fix the issue.
 
 
